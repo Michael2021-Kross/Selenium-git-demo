@@ -1,0 +1,702 @@
+{
+  "id": "76ea4ea5-2e07-4391-b51b-93091e631031",
+  "version": "2.0",
+  "name": "Krossroads ",
+  "url": "https://sellercentral.krossroads.com/",
+  "tests": [{
+    "id": "29a3427d-c024-4d31-a592-9fdff41b2376",
+    "name": "Correct Credentials 1",
+    "commands": [{
+      "id": "d9058c70-20fd-49f2-a429-5513859a87ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45660fbc-ef4a-430b-baa1-dac30314a9bf",
+      "comment": "",
+      "command": "open",
+      "target": "https://sellercentral.krossroads.com/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33ecd7c7-a311-4e4d-988e-f1fd813ce721",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5dd1ac0-f89c-44d0-a8e1-c6a9f066ad0f",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "devtest96@alliedtechnique.net"
+    }, {
+      "id": "b04bb5bd-c4b7-4cf4-bc72-f6d8713a20e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "password123"
+    }, {
+      "id": "0b9bcc87-1b84-46b8-a5eb-47c5b724faea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrapper",
+      "targets": [
+        ["css=.wrapper", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7265caf9-aa1b-4b3a-a721-42f17aa64d5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//button[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be5f4f7-ac53-4f77-9a55-029ec865e09e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-header",
+      "targets": [
+        ["css=.modal-header", "css:finder"],
+        ["xpath=//div[@id='loginModal']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ef26639-f016-48d8-996f-8ae63549d76b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=loginModalLabel",
+      "targets": [
+        ["id=loginModalLabel", "id"],
+        ["css=#loginModalLabel", "css:finder"],
+        ["xpath=//h3[@id='loginModalLabel']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login Failed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f149bd3a-2255-482a-bd26-a15a25e3a072",
+    "name": "In-correct credentials",
+    "commands": [{
+      "id": "131debcc-3c71-4d2a-ae89-c5d4447e4d5e",
+      "comment": "",
+      "command": "open",
+      "target": "https://sellercentral.krossroads.com/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0881ceb6-4030-45b4-a289-bab110bc13e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "301cf6e9-afdc-4d0a-8c6c-1a77f03fef27",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd4e22ab-c1ef-4989-ac65-014f21421cce",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "michael@alliedtechnique.com"
+    }, {
+      "id": "2b40d849-5b2d-4b15-a020-de71dba4babb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrapper",
+      "targets": [
+        ["css=.wrapper", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bbaad57-6fdb-4dd7-b2e1-4dfd4961c276",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6607f5f-4e0b-4afa-9222-c5aa0ad26886",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "password2"
+    }, {
+      "id": "49f760e7-11fe-476d-90fb-7d6429609c33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrapper",
+      "targets": [
+        ["css=.wrapper", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4e55760-f2d3-4173-9bd1-e591ce8fd17c",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//button[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d458034-c609-4179-a028-e42e8dec09fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=loginModalLabel",
+      "targets": [
+        ["id=loginModalLabel", "id"],
+        ["css=#loginModalLabel", "css:finder"],
+        ["xpath=//h3[@id='loginModalLabel']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login Failed')]", "xpath:innerText"]
+      ],
+      "value": "Login Failed"
+    }, {
+      "id": "df014c35-dd66-4ca9-887b-c7c1e4bd719f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.modal-body",
+      "targets": [
+        ["css=.modal-body", "css:finder"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Please check your credentials and try again."
+    }]
+  }, {
+    "id": "aca3b758-1de5-466d-a192-41dd6247d8de",
+    "name": "Register-existing mail-error displayed",
+    "commands": [{
+      "id": "e014670c-1619-401f-bf6d-fb8c92811ad9",
+      "comment": "",
+      "command": "open",
+      "target": "https://sellercentral.krossroads.com/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cca53b77-3f01-4ba9-8d2a-c34f052ef6a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b252c27-b675-4e25-b101-31516e81e879",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95318781-006a-48d9-a523-9ffeb8e98968",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrapper",
+      "targets": [
+        ["css=.wrapper", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8efb585-37dd-4b10-ad0f-3eaa8f9b3908",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register Now",
+      "targets": [
+        ["linkText=Register Now", "linkText"],
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Register Now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'register.html')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caceb9c5-f13a-4cec-82fb-e485c6b0a053",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupInputFirstName",
+      "targets": [
+        ["id=signupInputFirstName", "id"],
+        ["css=#signupInputFirstName", "css:finder"],
+        ["xpath=//input[@id='signupInputFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc493d7-39c2-4fb2-b34d-b8483742688f",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupInputFirstName",
+      "targets": [
+        ["id=signupInputFirstName", "id"],
+        ["css=#signupInputFirstName", "css:finder"],
+        ["xpath=//input[@id='signupInputFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Michael"
+    }, {
+      "id": "d3d07c0c-7505-4c2f-9243-34333180aa60",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupInputLastName",
+      "targets": [
+        ["id=signupInputLastName", "id"],
+        ["css=#signupInputLastName", "css:finder"],
+        ["xpath=//input[@id='signupInputLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e766b9b-9b38-4981-8807-073409c61d63",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupInputLastName",
+      "targets": [
+        ["id=signupInputLastName", "id"],
+        ["css=#signupInputLastName", "css:finder"],
+        ["xpath=//input[@id='signupInputLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Kimiricho"
+    }, {
+      "id": "67e689b0-827c-4ead-9898-1791b34fa8b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupInputEmail",
+      "targets": [
+        ["id=signupInputEmail", "id"],
+        ["css=#signupInputEmail", "css:finder"],
+        ["xpath=//input[@id='signupInputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b7498b-0d48-4551-aeb3-d99acbfb80fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupInputEmail",
+      "targets": [
+        ["id=signupInputEmail", "id"],
+        ["css=#signupInputEmail", "css:finder"],
+        ["xpath=//input[@id='signupInputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "michael@alliedtechnique.com"
+    }, {
+      "id": "fa5d8c04-9f46-4a6c-82a5-a95d838702ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupInputPassword",
+      "targets": [
+        ["id=signupInputPassword", "id"],
+        ["css=#signupInputPassword", "css:finder"],
+        ["xpath=//input[@id='signupInputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15508ddf-eeb2-430e-8d2f-3c3aec5fae4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupInputPassword",
+      "targets": [
+        ["id=signupInputPassword", "id"],
+        ["css=#signupInputPassword", "css:finder"],
+        ["xpath=//input[@id='signupInputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "password1"
+    }, {
+      "id": "c649390c-5896-40db-a2f4-882930d74ca4",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupInputBusinessName",
+      "targets": [
+        ["id=signupInputBusinessName", "id"],
+        ["css=#signupInputBusinessName", "css:finder"],
+        ["xpath=//input[@id='signupInputBusinessName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7307d1b-376f-46cf-9a83-206e3413116d",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupInputBusinessName",
+      "targets": [
+        ["id=signupInputBusinessName", "id"],
+        ["css=#signupInputBusinessName", "css:finder"],
+        ["xpath=//input[@id='signupInputBusinessName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Kenya"
+    }, {
+      "id": "9ebab68b-88f4-4778-b3c5-f8f73405ae9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-option-inner-inner",
+      "targets": [
+        ["css=.filter-option-inner-inner", "css:finder"],
+        ["xpath=//div[@id='signupSelectCountry']/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5a1697-8491-43df-80fe-94668b4eab44",
+      "comment": "",
+      "command": "type",
+      "target": "css=.bs-searchbox > .form-control",
+      "targets": [
+        ["css=.bs-searchbox > .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='signupSelectCountry']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "k"
+    }, {
+      "id": "a82fe625-af28-4cc1-ae95-e6ea91a72e64",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bs-select-1-114 > .text",
+      "targets": [
+        ["css=#bs-select-1-114 > .text", "css:finder"],
+        ["xpath=//a[@id='bs-select-1-114']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Kenya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbd5951c-a546-4f8d-bdce-691716a0629c",
+      "comment": "",
+      "command": "select",
+      "target": "id=countrySelectControl",
+      "targets": [],
+      "value": "label=Kenya"
+    }, {
+      "id": "45ec3997-025e-4b03-b016-ea7184c947d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(6) .fa",
+      "targets": [
+        ["css=.checkbox:nth-child(6) .fa", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div[5]/label/span", "xpath:idRelative"],
+        ["xpath=//div[5]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c898b46c-b5ca-4505-84a9-4236644c10dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(4) .fa",
+      "targets": [
+        ["css=.checkbox:nth-child(4) .fa", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div[4]/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "756d3ee5-7499-4c03-959a-1eb42a21be9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerButton",
+      "targets": [
+        ["id=registerButton", "id"],
+        ["css=#registerButton", "css:finder"],
+        ["xpath=//button[@id='registerButton']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9f56fdd8-ac64-4755-80a7-08e1728a4c3c",
+    "name": "Password reset",
+    "commands": [{
+      "id": "41282c65-65fe-4421-967a-341f15d82995",
+      "comment": "",
+      "command": "open",
+      "target": "https://sellercentral.krossroads.com/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e59795f4-4103-4404-9f85-5e2b5f5745f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0b37fa8-93d7-4530-8a26-2444f2cfe1f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c218b55b-5ad5-4b16-9306-516cc848194f",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "michael@alliedtechnique.com"
+    }, {
+      "id": "d020d0cf-ed52-4c9b-951f-5baa21a312de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrapper",
+      "targets": [
+        ["css=.wrapper", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c2b7a06-1d13-4577-bb6b-a3e0d1671ccd",
+      "comment": "",
+      "command": "click",
+      "target": "id=forgotPasswordButton",
+      "targets": [
+        ["id=forgotPasswordButton", "id"],
+        ["linkText=Forgot your password?", "linkText"],
+        ["css=#forgotPasswordButton", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot your password?')]", "xpath:link"],
+        ["xpath=//a[@id='forgotPasswordButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#forgotPasswordButton')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot your password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2971c418-6676-4630-87ab-c34c2409e4f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordResetButtonStateNotLoading",
+      "targets": [
+        ["id=passwordResetButtonStateNotLoading", "id"],
+        ["css=#passwordResetButtonStateNotLoading", "css:finder"],
+        ["xpath=//span[@id='passwordResetButtonStateNotLoading']", "xpath:attributes"],
+        ["xpath=//button[@id='passwordResetButton']/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Reset')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b7edb3b3-cfdd-4704-afb7-73cf6827548d",
+    "name": "Password reset with Incorrect email",
+    "commands": [{
+      "id": "6013d568-b1fe-4b3f-8dea-bd1b04699427",
+      "comment": "",
+      "command": "open",
+      "target": "https://sellercentral.krossroads.com/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc486c5d-fea9-4e1d-b917-45876a72e154",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec41cf52-002a-47d2-b00a-d005c4b0e7c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d451bdfe-9816-451a-94b4-9d6a444f2e36",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "michaelchecge@alliedtechnique.com"
+    }, {
+      "id": "e02f87b9-95e7-40da-854a-384bb4c632d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=forgotPasswordButton",
+      "targets": [
+        ["id=forgotPasswordButton", "id"],
+        ["linkText=Forgot your password?", "linkText"],
+        ["css=#forgotPasswordButton", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot your password?')]", "xpath:link"],
+        ["xpath=//a[@id='forgotPasswordButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#forgotPasswordButton')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot your password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e04731-a009-41af-9b6d-a533fea3ba4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordResetButton",
+      "targets": [
+        ["id=passwordResetButton", "id"],
+        ["css=#passwordResetButton", "css:finder"],
+        ["xpath=//button[@id='passwordResetButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Reset')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3fcbae7-8466-441d-b9f5-b6e0f0282fa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='passwordResetFailureModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2aa0c7a-e1d9-4a1c-9d89-a8aa1be78e34",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordResetButton",
+      "targets": [
+        ["id=passwordResetButton", "id"],
+        ["css=#passwordResetButton", "css:finder"],
+        ["xpath=//button[@id='passwordResetButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Reset')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9d801272-070c-4bad-92ee-44204dfc8409",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29a3427d-c024-4d31-a592-9fdff41b2376"]
+  }],
+  "urls": ["https://sellercentral.krossroads.com/login.html", "https://sellercentral.krossroads.com/"],
+  "plugins": []
+}
