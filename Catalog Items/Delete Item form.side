@@ -1,0 +1,668 @@
+{
+  "id": "89a63e82-cd77-49ca-8e3b-97f97c341cfb",
+  "version": "2.0",
+  "name": "Catalog Item form",
+  "url": "http://staging-sellerportal.alliedcommerce.net:9696/index.html#StoreAdminPlace:Bossch",
+  "tests": [{
+    "id": "a71a6e0f-00f4-49ff-803a-68372f6a97bd",
+    "name": "Create Item Form",
+    "commands": [{
+      "id": "30734d34-a46f-49d4-b201-9ae96079bcfd",
+      "comment": "",
+      "command": "open",
+      "target": "http://staging-sellerportal.alliedcommerce.net:9696/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2061a420-66aa-47e8-b47c-eb79d3bd7cf5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1e16aca-cc3f-4680-89eb-bdb43d1eccd4",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7335f74-d496-4fb4-a0d6-ae428a9a83a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "michael+57@alliedtechnique.com"
+    }, {
+      "id": "381306df-97cc-4b58-99b4-0600a2e2bc10",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "password1"
+    }, {
+      "id": "0327d7f0-9e25-46dd-b7c3-c071416d8c75",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//button[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69257968-576d-42c7-822f-6e8536f24aeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f482305-ccf3-48a1-b2ce-c3ee3fe73645",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a62da5-ab5c-4869-a101-e2c0ab49660b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37b05bbb-6b95-4629-b190-fad71ad95ec9",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell6",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell6", "id"],
+        ["css=#isc_TreeGrid_0_valueCell6", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell6']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[7]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1726244-3d30-4235-b643-c8918c943584",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=isc_TreeGrid_0_valueCell6",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell6", "id"],
+        ["css=#isc_TreeGrid_0_valueCell6", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell6']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[7]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cee4db77-cb5b-4ac8-acb6-6ffa1955db5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#isc_IO .toolStripButton:nth-child(2)",
+      "targets": [
+        ["css=#isc_IO .toolStripButton:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='isc_IO']/table/tbody/tr/td/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//div[14]/div/table/tbody/tr/td/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "250de0f5-0951-498f-80ae-8c437180b517",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "xpath=//div[@id='isc_NM']/table/tbody/tr/td/table/tbody/tr/td",
+      "targets": [
+        ["css=.toolStripButtonOverOpened .toolStripButtonOverOpened:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='isc_NM']/table/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74e2918b-2e1a-4c04-b16c-0361262959f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_LU",
+      "targets": [
+        ["id=isc_LU", "id"],
+        ["name=fld_title", "name"],
+        ["css=#isc_LU", "css:finder"],
+        ["xpath=//input[@id='isc_LU']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_LW']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac50ad1-bff2-4943-a91d-3ee59c850c18",
+      "comment": "",
+      "command": "type",
+      "target": "id=isc_LU",
+      "targets": [
+        ["id=isc_LU", "id"],
+        ["name=fld_title", "name"],
+        ["css=#isc_LU", "css:finder"],
+        ["xpath=//input[@id='isc_LU']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_LW']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Test Item A"
+    }, {
+      "id": "34858e20-e631-4cc4-a2fc-ebc766f3c30c",
+      "comment": "",
+      "command": "type",
+      "target": "id=isc_M2",
+      "targets": [
+        ["id=isc_M2", "id"],
+        ["name=fld_cost", "name"],
+        ["css=#isc_M2", "css:finder"],
+        ["xpath=//input[@id='isc_M2']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_M4']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "2aa90bd2-eb5e-4960-a0c1-262db60a0b8d",
+      "comment": "",
+      "command": "type",
+      "target": "id=isc_M6",
+      "targets": [
+        ["id=isc_M6", "id"],
+        ["name=fld_msrpPrice", "name"],
+        ["css=#isc_M6", "css:finder"],
+        ["xpath=//input[@id='isc_M6']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_M8']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]/input", "xpath:position"]
+      ],
+      "value": "120"
+    }, {
+      "id": "fb90e23f-61d6-472d-8782-0cf6ab1a32a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#isc_MG > .comboBoxItemPicker",
+      "targets": [
+        ["css=#isc_MG > .comboBoxItemPicker", "css:finder"],
+        ["xpath=//span[@id='isc_MG']/span", "xpath:idRelative"],
+        ["xpath=//td[2]/table/tbody/tr/td[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3508365d-6d80-4116-82f6-77f7964c5560",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[@id='isc_PickListMenu_0_row_0']/td/div",
+      "targets": [
+        ["css=.cellSelected > div", "css:finder"],
+        ["xpath=//tr[@id='isc_PickListMenu_0_row_0']/td/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div/table/tbody[2]/tr/td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2a450e9-3a54-4f3e-b61c-a1f360253e6a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='isc_NM']/table/tbody/tr/td/table/tbody/tr/td",
+      "targets": [
+        ["css=.toolStripButtonOpened .toolStripButtonOpened:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='isc_NM']/table/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a800d5d-cea7-4d02-8a6d-77563c4fa7a1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=tr:nth-child(1) > .menuIconField",
+      "targets": [
+        ["css=tr:nth-child(1) > .menuIconField", "css:finder"],
+        ["xpath=//table[@id='isc_OQtable']/tbody[2]/tr/td", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/table/tbody[2]/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b0f7fb-305a-4481-94af-039014668edd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=isc_LG",
+      "targets": [
+        ["id=isc_LG", "id"],
+        ["css=#isc_LG", "css:finder"],
+        ["xpath=//div[@id='isc_LG']", "xpath:attributes"],
+        ["xpath=//div[@id='isc_LF']/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "  Name : Price :\\nCost : MRSP :\\nStatus :\\nActive\\nCategory :\\nDisplay Color :\\nEAN :\\nUPC : SKU :\\n Save Actions\\nImages\\nCharts\\nDelete\\nReset\\nClose"
+    }, {
+      "id": "a361378b-db46-4632-86eb-9355ddef01da",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='isc_O6']/table/tbody/tr/td/table/tbody/tr/td",
+      "targets": [
+        ["css=#isc_O6 .toolStripButtonOver .toolStripButtonOver:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='isc_O6']/table/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[12]/div/table/tbody/tr/td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5c3d13e6-0fe0-4d63-abba-06b5077bae79",
+    "name": "Edit item form",
+    "commands": [{
+      "id": "c9fff275-3b87-415b-a413-340dc9faf521",
+      "comment": "",
+      "command": "open",
+      "target": "http://staging-sellerportal.alliedcommerce.net:9696/index.html?reload=true#StoreAdminPlace:Bossch",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ba21e86-a7bf-4dcd-9974-bd0faac5547f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c08c7503-9555-46d6-bfe1-db8e643eec4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6f73dd-452a-4a2e-afa2-804d3a24ed8c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68311f7a-bc2a-434b-a350-ae5c6ef717a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell6",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell6", "id"],
+        ["css=#isc_TreeGrid_0_valueCell6", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell6']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[7]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d20698f-98be-40a1-af4a-b491019721ae",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=isc_TreeGrid_0_valueCell6",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell6", "id"],
+        ["css=#isc_TreeGrid_0_valueCell6", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell6']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[7]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f190ff1a-93ae-4b5a-9841-8e828b99442d",
+      "comment": "",
+      "command": "click",
+      "target": "id=storesMerchandiseGrid_valueCell2",
+      "targets": [
+        ["id=storesMerchandiseGrid_valueCell2", "id"],
+        ["css=#storesMerchandiseGrid_valueCell2", "css:finder"],
+        ["xpath=//td[@id='storesMerchandiseGrid_valueCell2']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_KQtable']/tbody[2]/tr[3]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody[2]/tr[3]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf2360e-adc6-4b1c-8070-d9ddb43ae749",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=storesMerchandiseGrid_valueCell2",
+      "targets": [
+        ["id=storesMerchandiseGrid_valueCell2", "id"],
+        ["css=#storesMerchandiseGrid_valueCell2", "css:finder"],
+        ["xpath=//td[@id='storesMerchandiseGrid_valueCell2']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_KQtable']/tbody[2]/tr[3]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody[2]/tr[3]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a7341a-8f1b-4ada-a22a-5c53231aac06",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=isc_P5",
+      "targets": [
+        ["id=isc_P5", "id"],
+        ["css=#isc_P5", "css:finder"],
+        ["xpath=//div[@id='isc_P5']", "xpath:attributes"],
+        ["xpath=//div[@id='isc_P4']/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": " Item"
+    }, {
+      "id": "6f1eddad-c171-4327-8301-f35915529200",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_MP",
+      "targets": [
+        ["id=isc_MP", "id"],
+        ["name=fld_price", "name"],
+        ["css=#isc_MP", "css:finder"],
+        ["xpath=//input[@id='isc_MP']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_MR']/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f7be1f5-5412-41d2-a056-7624eff9e574",
+      "comment": "",
+      "command": "type",
+      "target": "id=isc_MP",
+      "targets": [
+        ["id=isc_MP", "id"],
+        ["name=fld_price", "name"],
+        ["css=#isc_MP", "css:finder"],
+        ["xpath=//input[@id='isc_MP']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_MR']/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "120"
+    }, {
+      "id": "b9c3cf2c-5d5a-4173-9957-b65a910cca02",
+      "comment": "",
+      "command": "type",
+      "target": "id=isc_MT",
+      "targets": [
+        ["id=isc_MT", "id"],
+        ["name=fld_cost", "name"],
+        ["css=#isc_MT", "css:finder"],
+        ["xpath=//input[@id='isc_MT']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_MV']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "80"
+    }, {
+      "id": "c055fdbd-563b-453c-996f-a3490e0e7682",
+      "comment": "",
+      "command": "type",
+      "target": "id=isc_MX",
+      "targets": [
+        ["id=isc_MX", "id"],
+        ["name=fld_msrpPrice", "name"],
+        ["css=#isc_MX", "css:finder"],
+        ["xpath=//input[@id='isc_MX']", "xpath:attributes"],
+        ["xpath=//td[@id='isc_MZ']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]/input", "xpath:position"]
+      ],
+      "value": "120"
+    }, {
+      "id": "2bf1b819-5a8e-464f-b695-d1821df67313",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='isc_OC']/table/tbody/tr/td/table/tbody/tr/td",
+      "targets": [
+        ["css=.toolStripButtonOpened .toolStripButtonOpened:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='isc_OC']/table/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aefe1de2-0c5d-4236-8a83-42f56295d915",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .menuIconField",
+      "targets": [
+        ["css=tr:nth-child(1) > .menuIconField", "css:finder"],
+        ["xpath=//table[@id='isc_PNtable']/tbody[2]/tr/td", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/div/table/tbody[2]/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec83af0-d35f-4004-8360-9a31ab60b0fd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=isc_M7",
+      "targets": [
+        ["id=isc_M7", "id"],
+        ["css=#isc_M7", "css:finder"],
+        ["xpath=//div[@id='isc_M7']", "xpath:attributes"],
+        ["xpath=//div[@id='isc_M6']/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": "  Name : Price :\\nCost : MRSP :\\nStatus :\\nActive\\nCategory :\\nDisplay Color :\\nEAN :\\nUPC : SKU :\\n Save Actions\\nImages\\nCharts\\nDelete\\nReset\\nClose"
+    }, {
+      "id": "0130f22c-0664-4e9b-a07d-84c31e1c2ae5",
+      "comment": "",
+      "command": "echo",
+      "target": "this is the end of the script",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9188739d-ec4c-4f95-ad1f-7eda2a5b2a94",
+    "name": "Delete Item form",
+    "commands": [{
+      "id": "50c97070-c1ce-44ad-8da7-a51966bd9bad",
+      "comment": "",
+      "command": "open",
+      "target": "http://staging-sellerportal.alliedcommerce.net:9696/index.html?reload=true#StoreAdminPlace:Bossch",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b9c6352-a5a0-448b-8dd5-29cc525256bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1521x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8554b7b2-60a6-4f79-a83f-1825e38978d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ded408-42f3-48b0-8cb2-d8d30b4db5de",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=isc_TreeGrid_0_valueCell5",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell5", "id"],
+        ["css=#isc_TreeGrid_0_valueCell5", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell5']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/table/tbody[2]/tr[6]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8217f05-1552-4635-b889-5978494b52d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=isc_TreeGrid_0_valueCell6",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell6", "id"],
+        ["css=#isc_TreeGrid_0_valueCell6", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell6']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[7]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb958cfb-8b79-452b-8a40-2767cec34d9a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=isc_TreeGrid_0_valueCell6",
+      "targets": [
+        ["id=isc_TreeGrid_0_valueCell6", "id"],
+        ["css=#isc_TreeGrid_0_valueCell6", "css:finder"],
+        ["xpath=//td[@id='isc_TreeGrid_0_valueCell6']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_16table']/tbody[2]/tr[7]/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "481be929-27ae-450f-846d-7880bf5904c6",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=storesMerchandiseGrid_valueCell0",
+      "targets": [
+        ["id=storesMerchandiseGrid_valueCell0", "id"],
+        ["css=#storesMerchandiseGrid_valueCell0", "css:finder"],
+        ["xpath=//td[@id='storesMerchandiseGrid_valueCell0']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_KQtable']/tbody[2]/tr/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody[2]/tr/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "999b3248-d8ca-4f33-b8ef-682ffd359ad1",
+      "comment": "",
+      "command": "click",
+      "target": "id=storesMerchandiseGrid_valueCell0",
+      "targets": [
+        ["id=storesMerchandiseGrid_valueCell0", "id"],
+        ["css=#storesMerchandiseGrid_valueCell0", "css:finder"],
+        ["xpath=//td[@id='storesMerchandiseGrid_valueCell0']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_KQtable']/tbody[2]/tr/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody[2]/tr/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc89c2a1-0825-4922-9d68-d0088deabe55",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=storesMerchandiseGrid_valueCell0",
+      "targets": [
+        ["id=storesMerchandiseGrid_valueCell0", "id"],
+        ["css=#storesMerchandiseGrid_valueCell0", "css:finder"],
+        ["xpath=//td[@id='storesMerchandiseGrid_valueCell0']", "xpath:attributes"],
+        ["xpath=//table[@id='isc_KQtable']/tbody[2]/tr/td/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody[2]/tr/td/div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4bcab0e-05f2-437b-9ce2-1bc07c12408d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#isc_P6 .windowHeaderText",
+      "targets": [
+        ["css=#isc_P6 .windowHeaderText", "css:finder"],
+        ["xpath=//div[@id='isc_P6']/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/div/div/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": "Item"
+    }, {
+      "id": "17621105-ef5e-4ec5-807e-3faa6abfa378",
+      "comment": "",
+      "command": "click",
+      "target": "css=#isc_OO .toolStripButton:nth-child(2)",
+      "targets": [
+        ["css=#isc_OO .toolStripButton:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='isc_OO']/table/tbody/tr/td/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/table/tbody/tr/td/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb2bf3c-e306-43ae-a627-436248e20e17",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#isc_Q0 .dialogHeaderText",
+      "targets": [
+        ["css=#isc_Q0 .dialogHeaderText", "css:finder"],
+        ["xpath=//div[@id='isc_Q0']/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/div/div/div/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Confirm Delete')]", "xpath:innerText"]
+      ],
+      "value": " Confirm Delete"
+    }, {
+      "id": "2162bc16-12f3-49d9-b5bf-17d7ecdc3896",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#isc_PQ .normal",
+      "targets": [
+        ["css=#isc_PQ .normal", "css:finder"],
+        ["xpath=//div[@id='isc_PQ']/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/div/div/div[2]/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Are you sure you want to delete the record?')]", "xpath:innerText"]
+      ],
+      "value": " Are you sure you want to delete the record?"
+    }, {
+      "id": "8f0368fa-29e6-4d13-900e-4be6a192d596",
+      "comment": "",
+      "command": "echo",
+      "target": "this is the end of the script ",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7fe485d2-c5b4-4352-afa3-172329d08deb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a71a6e0f-00f4-49ff-803a-68372f6a97bd"]
+  }],
+  "urls": ["http://staging-sellerportal.alliedcommerce.net:9696/login.html", "http://staging-sellerportal.alliedcommerce.net:9696/index.html#StoreAdminPlace:Bossch"],
+  "plugins": []
+}
